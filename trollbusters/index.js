@@ -3,7 +3,7 @@
 
   This is the programmatic entry point of your bot.
   Your bot's logic resides here.
-  
+
   Here's the next steps for you:
   1. Read this file to understand how this simple bot works
   2. Read the `content.yml` file to understand how messages are sent
@@ -35,5 +35,17 @@ module.exports = function(bp) {
       // You can pass data to the UMM bloc!
       reason: 'unknown'
     })
+  })
+
+  bp.hear('MENU_SEND_EX_02', (event, next) => {
+    event.reply('#textWithQuickReplies')
+  })
+
+  bp.hear('TEXTWITHQUICKREPLIES.B1', (event, next) => {
+    event.reply('#textWithQuickReplies_reply', { button: 'Yes' })
+  })
+
+  bp.hear('TEXTWITHQUICKREPLIES.B2', (event, next) => {
+    event.reply('#textWithQuickReplies_reply', { button: 'No' })
   })
 }

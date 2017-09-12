@@ -12,6 +12,18 @@ welcome: # this is the #welcome bloc referenced in index.js
   - text: You can say goodbye now
     typing: 1s
 
+    # Testing 'quick replies' which allows users to reply to a question by pressing
+    # predefined buttons
+
+textWithQuickReplies:
+  - text: This is text with Quick Replies
+    quick_replies:
+      - <.B1> Button 1 #Starting with a '.' before B1 will prepend the name of the bloc in uppercase
+      - <.B2> Button 2
+
+textWithQuickReplies_reply:
+  - You pressed button '{{button}}'
+
 goodbye:
   - text: You are leaving because of reason {{reason}}
     typing: true
