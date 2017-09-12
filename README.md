@@ -23,7 +23,7 @@ Botpress is an open-source bot creation tool written in Javascript. It is powere
 
 ## What is Botpress
 
-Botpress is on a mission to make useful bots ubiquitous by powering developers with the best possible tools to build & manage chatbots. We believe that in order to create great bots, major time should be spent on UX, **not** on the surrounding (and generic) features. 
+Botpress is on a mission to make useful bots ubiquitous by powering developers with the best possible tools to build & manage chatbots. We believe that in order to create great bots, major time should be spent on UX, **not** on the surrounding (and generic) features.
 
 Botpress is a free & open-source bot-building platform that ships with:
 * [**Connectors**](https://www.npmjs.com/search?q=botpress-connector) to the major chat platforms
@@ -151,3 +151,5 @@ For more information about how the dual-license works and why it works that way 
 ## Credits
 
 Emoji provided free by [EmojiOne](http://emojione.com)
+
+**start test**
